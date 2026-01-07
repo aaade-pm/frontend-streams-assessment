@@ -6,12 +6,16 @@ import {
   Waves,
   Settings,
   PanelRightClose,
+  List,
+  Grid3x3,
 } from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
   SidebarHeader,
   SidebarRail,
+  SidebarFooter,
+  SidebarSeparator,
   useSidebar,
 } from "@/components/ui/sidebar";
 import { NavMain } from "./nav-main";
@@ -29,12 +33,24 @@ const data = {
       url: "/dashboard/tests",
       icon: Binoculars,
     },
-
+    {
+      title: "Studies",
+      url: "/dashboard/tests",
+      icon: List,
+    },
+    {
+      title: "Studies",
+      url: "/dashboard/tests",
+      icon: Grid3x3,
+    },
     {
       title: "Streams",
       url: "/dashboard/streams",
       icon: Waves,
+      isActive: true,
     },
+  ],
+  navSecondary: [
     {
       title: "Team",
       url: "/dashboard/team",
@@ -61,8 +77,10 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
           />
         </div>
       </SidebarHeader>
-      <SidebarContent>
+      <SidebarContent className="pr-4">
         <NavMain items={data.navMain} />
+        <SidebarSeparator />
+        <NavMain items={data.navSecondary} />
       </SidebarContent>
       <SidebarRail />
     </Sidebar>

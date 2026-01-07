@@ -20,21 +20,17 @@ import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 
 type NavItem = {
+  title: string;
+  url: string;
+  icon?: LucideIcon;
+  isActive?: boolean;
+  items?: {
     title: string;
     url: string;
-    icon?: LucideIcon;
-    isActive?: boolean;
-    items?: {
-      title: string;
-      url: string;
-    }[];
-  };
+  }[];
+};
 
-export function NavMain({
-  items,
-}: {
-  items: NavItem[];
-}) {
+export function NavMain({ items }: { items: NavItem[] }) {
   const pathname = usePathname();
 
   const routesSplit = pathname.split("/");
@@ -63,11 +59,13 @@ export function NavMain({
               <Collapsible
                 asChild
                 defaultOpen={isActive(item.url)}
-                className={cn("group/collapsible")}>
+                className={cn("group/collapsible")}
+              >
                 <SidebarMenuItem
                   className={cn(
                     isActive(item.url) && "bg-[#EDEDFF] rounded-[12px]"
-                  )}>
+                  )}
+                >
                   <CollapsibleTrigger asChild>
                     <SidebarMenuButton tooltip={item.title}>
                       {item.icon && (
@@ -79,7 +77,8 @@ export function NavMain({
                         />
                       )}
                       <span
-                        className={cn(isActive(item.url) && "text-[#623BA5]")}>
+                        className={cn(isActive(item.url) && "text-[#623BA5]")}
+                      >
                         {item.title}
                       </span>
                       <ChevronDown
@@ -99,7 +98,8 @@ export function NavMain({
                               <span
                                 className={cn(
                                   isActive(subItem.url) && "text-[#623BA5]"
-                                )}>
+                                )}
+                              >
                                 {subItem.title}
                               </span>
                             </a>
@@ -115,18 +115,27 @@ export function NavMain({
                 tooltip={item.title}
                 asChild
                 className={cn(
-                  isActive(item.url) && "bg-sidebar-accent rounded-[12px]"
-                )}>
+                  (isActive(item.url) || item.isActive) &&
+                    "bg-[#EDEDFF] rounded-[12px]"
+                )}
+              >
                 <a href={item.url}>
                   {item.icon && (
                     <item.icon
                       className={cn(
                         "text-sidebar-primary-foreground w-[12px] h-[12px]",
-                        isActive(item.url) && "text-[#623BA5]"
+                        (isActive(item.url) || item.isActive) &&
+                          "text-[#623BA5]"
                       )}
                     />
                   )}
-                  <span className={cn("text-sidebar-primary-foreground", isActive(item.url) && "text-[#623BA5]")}>
+
+                  <span
+                    className={cn(
+                      "text-sidebar-primary-foreground",
+                      (isActive(item.url) || item.isActive) && "text-[#623BA5]"
+                    )}
+                  >
                     {item.title}
                   </span>
                 </a>
