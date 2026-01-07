@@ -1,0 +1,173 @@
+{
+  "bookmarks": [
+    {
+      "id": "b1",
+      "title": "Why is sentiment dropping this..."
+    },
+    {
+      "id": "b2",
+      "title": "What do people dislike about..."
+    }
+  ],
+  "historyGroups": [
+    {
+      "id": "today",
+      "title": "Today",
+      "items": [
+        {
+          "id": "h1-today",
+          "title": "Why is sentiment dropping this..."
+        },
+        {
+          "id": "h2-today",
+          "title": "Why is sentiment dropping this..."
+        },
+        {
+          "id": "h3-today",
+          "title": "Why is sentiment dropping this..."
+        },
+        {
+          "id": "h4-today",
+          "title": "Why is sentiment dropping this..."
+        },
+        {
+          "id": "h5-today",
+          "title": "Why is sentiment dropping this..."
+        }
+      ]
+    },
+    {
+      "id": "last7",
+      "title": "Last 7 days",
+      "items": [
+        {
+          "id": "h1-last7",
+          "title": "Why is sentiment dropping this..."
+        },
+        {
+          "id": "h2-last7",
+          "title": "Why is sentiment dropping this..."
+        },
+        {
+          "id": "h3-last7",
+          "title": "Why is sentiment dropping this..."
+        },
+        {
+          "id": "h4-last7",
+          "title": "Why is sentiment dropping this..."
+        },
+        {
+          "id": "h5-last7",
+          "title": "Why is sentiment dropping this..."
+        }
+      ]
+    },
+    {
+      "id": "november",
+      "title": "November",
+      "items": [
+        {
+          "id": "h1-november",
+          "title": "Why is sentiment dropping this..."
+        },
+        {
+          "id": "h2-november",
+          "title": "Why is sentiment dropping this..."
+        },
+        {
+          "id": "h3-november",
+          "title": "Why is sentiment dropping this..."
+        },
+        {
+          "id": "h4-november",
+          "title": "Why is sentiment dropping this..."
+        },
+        {
+          "id": "h5-november",
+          "title": "Why is sentiment dropping this..."
+        }
+      ]
+    }
+  ],
+  "dataSources": [
+    {
+      "id": "ds1",
+      "name": "Sawyer Merritt",
+      "date": "November 20, 2025",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": "ds2",
+      "name": "Jessibeesocial",
+      "date": "November 20, 2025",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": "ds3",
+      "name": "Sawyer Merritt",
+      "date": "November 20, 2025",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": "ds4",
+      "name": "Sawyer Merritt",
+      "date": "November 20, 2025",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": "ds5",
+      "name": "Sawyer Merritt",
+      "date": "November 20, 2025",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": "ds6",
+      "name": "Sawyer Merritt",
+      "date": "November 20, 2025",
+      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  ],
+  "sections": {
+    "section1": {
+      "title": "Section 1",
+      "headline": "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    "section2": {
+      "title": "Section 2",
+      "headline": "Commodo consequat",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    "section3": {
+      "title": "Section 3",
+      "headline": "Commodo consequat",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  },
+  "stackedCards": [
+    {
+      "id": "card-1",
+      "title": "Section 1",
+      "headline": "Commodo consequat",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": "card-2",
+      "title": "Section 2",
+      "headline": "Commodo consequat",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": "card-3",
+      "title": "Section 3",
+      "headline": "Commodo consequat",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": "card-4",
+      "title": "Section 4",
+      "headline": "Commodo consequat",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  ]
+}
